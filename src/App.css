@@ -25,11 +25,13 @@
     width: 28%;
     min-height: 100vh;
     background-color: rgb(34, 34, 34);
+    grid-area: aside;
 }
 
 .board-container {
     width: 600px;
     height: 600px;
+    grid-area: chess;
 }
 
 .board {
